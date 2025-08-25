@@ -211,8 +211,8 @@ export default function About() {
                 User-Centered
               </h4>
               <p className="text-gray-600 text-sm">
-                Every design decision is made with the user's needs, emotions,
-                and goals in mind
+                Every design decision is made with the user&apos;s needs,
+                emotions, and goals in mind
               </p>
             </div>
 
@@ -224,8 +224,8 @@ export default function About() {
                 Aesthetically Pleasing
               </h4>
               <p className="text-gray-600 text-sm">
-                Beautiful design isn't just decoration—it enhances functionality
-                and creates delight
+                Beautiful design isn&apos;t just decoration—it enhances
+                functionality and creates delight
               </p>
             </div>
 

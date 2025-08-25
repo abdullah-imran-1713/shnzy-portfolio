@@ -16,7 +16,7 @@ export default function Hero() {
       setCurrentText((prev) => (prev + 1) % texts.length);
     }, 2000);
     return () => clearInterval(interval);
-  }, []);
+  }, [texts.length]);
 
   const scrollToSection = (sectionId: string) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
@@ -41,7 +41,7 @@ export default function Hero() {
             </div>
 
             <h1 className="hero-title text-5xl lg:text-6xl xl:text-7xl font-playfair font-bold text-gray-800 mb-6 leading-tight">
-              Hi, I'm{' '}
+              Hi, I&apos;m{' '}
               <span className="bg-gradient-to-r from-pink-400 via-purple-500 to-indigo-500 bg-clip-text text-transparent">
                 Shanzay
               </span>
@@ -71,7 +71,7 @@ export default function Hero() {
                 onClick={() => scrollToSection('contact')}
                 className="px-8 py-4 bg-white/20 backdrop-blur-sm text-gray-700 rounded-full font-medium border border-white/30 hover:bg-white/30 transition-all duration-300"
               >
-                Let's Talk
+                Let&apos;s Talk
               </button>
             </div>
 

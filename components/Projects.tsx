@@ -224,7 +224,7 @@ export default function Projects() {
             </h3>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Every great design starts with understanding the problem and the
-              people we're designing for
+              people we&apos;re designing for
             </p>
           </div>
 

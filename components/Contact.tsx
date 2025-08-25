@@ -52,14 +52,14 @@ export default function Contact() {
             💌 Get In Touch
           </div>
           <h2 className="text-4xl lg:text-5xl font-playfair font-bold text-gray-800 mb-6">
-            Let's Create Something{' '}
+            Let&apos;s Create Something{' '}
             <span className="bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
               Amazing
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Have a project in mind? I'd love to hear about it and discuss how we
-            can bring your vision to life
+            Have a project in mind? I&apos;d love to hear about it and discuss
+            how we can bring your vision to life
           </p>
         </div>
 
@@ -205,7 +205,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-800 mb-1">
-                        Let's Chat
+                        Let&apos;s Chat
                       </h4>
                       <p className="text-gray-600 text-sm mb-2">
                         Quick questions and casual conversations
@@ -285,16 +285,16 @@ export default function Contact() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
               {
-                q: 'What&apos;s your typical project timeline?',
-                a: 'Project timelines vary depending on scope, but most projects take 2-6 weeks from start to finish. I&apos;ll provide a detailed timeline during our initial consultation.',
+                q: 'What is your design process like?',
+                a: 'I start with understanding your goals and audience, then move to research and brainstorming. After sketching concepts, I create digital drafts and refine them based on your feedback until we achieve the perfect design.',
+              },
+              {
+                q: 'How long does a typical project take?',
+                a: 'Project timelines vary based on scope, but most branding or web design projects take between 4-8 weeks from initial consultation to final delivery.',
               },
               {
                 q: 'Do you work with international clients?',
                 a: 'Absolutely! I work with clients globally and am comfortable coordinating across different time zones. Most of my communication happens via email and video calls.',
-              },
-              {
-                q: 'What&apos;s included in your design packages?',
-                a: 'Each project is customized, but typically includes initial consultation, research, concept development, revisions, and final deliverables with style guides.',
               },
               {
                 q: 'How do you handle project revisions?',
