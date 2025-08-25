@@ -32,13 +32,13 @@ export default function Footer() {
                   <span className="text-white font-bold text-xl">S</span>
                 </div>
                 <span className="ml-3 text-2xl font-playfair font-semibold text-white">
-                  Sarah Johnson
+                  Shanzay Asghar
                 </span>
               </div>
               <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
                 Creative designer passionate about crafting beautiful,
-                meaningful experiences that connect brands with people. Let's
-                create something amazing together! ✨
+                meaningful experiences that connect brands with people.
+                Let&apos;s create something amazing together! ✨
               </p>
 
               {/* Social Links */}
@@ -130,7 +130,7 @@ export default function Footer() {
           <div className="container mx-auto px-6 py-6">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 text-sm mb-4 md:mb-0">
-                © 2024 Sarah Johnson. Made with 💖 and lots of coffee
+                © 2024 Shanzay Asghar. Made with 💖 and lots of coffee
               </p>
 
               <div className="flex items-center space-x-6">

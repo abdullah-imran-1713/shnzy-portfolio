@@ -94,17 +94,17 @@ export default function About() {
             {/* Story */}
             <div className="space-y-6">
               <p className="text-gray-600 leading-relaxed">
-                With over 4 years of experience in design, I've had the
+                With over 4 years of experience in design, I&apos;ve had the
                 privilege of working with amazing clients ranging from
                 innovative startups to established brands. My journey began with
                 a simple love for colors and shapes, which evolved into a deep
                 passion for creating meaningful digital experiences.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                When I'm not designing, you can find me sketching in coffee
+                When I&apos;m not designing, you can find me sketching in coffee
                 shops, exploring art galleries, or experimenting with new
                 creative techniques. I believe that inspiration comes from
-                everywhere, and I'm always eager to learn and grow as a
+                everywhere, and I&apos;m always eager to learn and grow as a
                 designer.
               </p>
             </div>

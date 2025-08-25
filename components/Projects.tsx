@@ -64,9 +64,9 @@ export default function Projects() {
       id: 4,
       title: 'Whimsical Illustrations',
       category: 'illustration',
-      description: "Series of illustrations for children's book",
+      description: 'Series of illustrations for children&apos;s book',
       image: '/images/project4.jpg',
-      tags: ['Illustration', "Children's Book", 'Character Design'],
+      tags: ['Illustration', 'Children&apos;s Book', 'Character Design'],
       color: 'from-yellow-400 to-orange-500',
     },
     {

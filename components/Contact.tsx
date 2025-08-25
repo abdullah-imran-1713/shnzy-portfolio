@@ -83,7 +83,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 glass rounded-2xl border border-white/30 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-transparent transition-all duration-200"
-                    placeholder="Sarah Johnson"
+                    placeholder="Shanzay Asghar"
                   />
                 </div>
                 <div>
@@ -101,7 +101,7 @@ export default function Contact() {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 glass rounded-2xl border border-white/30 focus:outline-none focus:ring-2 focus:ring-pink-400 focus:border-transparent transition-all duration-200"
-                    placeholder="hello@sarahjohnson.com"
+                    placeholder="hello@shanzay.com"
                   />
                 </div>
               </div>
@@ -189,10 +189,10 @@ export default function Contact() {
                         For project inquiries and collaborations
                       </p>
                       <a
-                        href="mailto:hello@sarahjohnson.com"
+                        href="mailto:hello@shanzay.com"
                         className="text-pink-500 hover:text-pink-600 font-medium"
                       >
-                        hello@sarahjohnson.com
+                        hello@shanzay.com
                       </a>
                     </div>
                   </div>
@@ -262,7 +262,8 @@ export default function Contact() {
                   </h4>
                   <p className="text-gray-600 text-sm">
                     I love meeting fellow creatives and discussing design over a
-                    good cup of coffee. If you're in NYC, let's grab coffee!
+                    good cup of coffee. If you&apos;re in NYC, let&apos;s grab
+                    coffee!
                   </p>
                 </div>
               </div>
@@ -284,20 +285,20 @@ export default function Contact() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {[
               {
-                q: "What's your typical project timeline?",
-                a: "Project timelines vary depending on scope, but most projects take 2-6 weeks from start to finish. I'll provide a detailed timeline during our initial consultation.",
+                q: 'What&apos;s your typical project timeline?',
+                a: 'Project timelines vary depending on scope, but most projects take 2-6 weeks from start to finish. I&apos;ll provide a detailed timeline during our initial consultation.',
               },
               {
                 q: 'Do you work with international clients?',
                 a: 'Absolutely! I work with clients globally and am comfortable coordinating across different time zones. Most of my communication happens via email and video calls.',
               },
               {
-                q: "What's included in your design packages?",
+                q: 'What&apos;s included in your design packages?',
                 a: 'Each project is customized, but typically includes initial consultation, research, concept development, revisions, and final deliverables with style guides.',
               },
               {
                 q: 'How do you handle project revisions?',
-                a: "I include 2-3 rounds of revisions in all projects to ensure you're completely happy with the final result. Additional revisions can be accommodated as needed.",
+                a: 'I include 2-3 rounds of revisions in all projects to ensure you&apos;re completely happy with the final result. Additional revisions can be accommodated as needed.',
               },
             ].map((faq, index) => (
               <div key={index} className="glass p-6 rounded-3xl">

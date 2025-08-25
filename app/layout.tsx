@@ -5,7 +5,7 @@ import { ReactNode } from 'react';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Sarah Johnson - Creative Designer',
+  title: 'Shanzay Asghar - Creative Designer',
   description:
     'Creative designer specializing in brand identity, UI/UX design, and digital experiences.',
 };

@@ -32,7 +32,7 @@ export default function Header() {
             <span className="text-white font-bold text-lg">S</span>
           </div>
           <span className="ml-3 text-xl font-playfair font-semibold text-gray-800">
-            Sarah
+            Shanzay
           </span>
         </div>
 
